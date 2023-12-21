@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #c4c4ff !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.font {
+    color: #c4c4ff !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.gradient-text-blue-purple {
+    background-color: #CA4246;
+    /* Fallback*/
+    background-image: linear-gradient(45deg, #c1bbfe 16.666%, #fe8af0 83.333%);
+
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.gradient-text-dark {
+    background-color: #CA4246;
+    background-image: linear-gradient(45deg, #0b045c 30%, #20011c 60%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.features__img {
+    width: 60%;
+    margin: auto;
+}
+
+.carousel-image {
+    aspect-ratio: 4/2;
+    z-index: 1;
+    position: relative;
+    filter: opacity(0.5);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 19, 77);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 19, 77);
+}
+
+.watermark {
+    width: 850px;
+    position: absolute;
+    z-index: 2;
+}
+
+@media screen and (max-width: 800px) {
+    .watermark {
+        width: 300px;
+    }
+}
+
+footer {
+    background: hsl(0deg 0% 100% / 17%);
+}

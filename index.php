@@ -6,92 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./bootstrap-css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <?php include 'head.php' ?>
 
-    <script src="./bootstrap-js/bootstrap.js"></script>
-
-    <title>ConectaHealth</title>
-
-    <style>
-        a {
-            color: #c4c4ff !important;
-            font-family: 'Montserrat', sans-serif !important;
-        }
-
-        .font {
-            color: #c4c4ff !important;
-            font-family: 'Montserrat', sans-serif !important;
-        }
-
-        .gradient-text-blue-purple {
-            background-color: #CA4246;
-            /* Fallback*/
-            background-image: linear-gradient(45deg, #c1bbfe 16.666%, #fe8af0 83.333%);
-
-            /* Set the background size and repeat properties. */
-            background-size: 100%;
-            background-repeat: repeat;
-
-            /* Use the text as a mask for the background. */
-            /* This will show the gradient as a text color rather than element bg. */
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent
-        }
-
-        .gradient-text-dark {
-            background-color: #CA4246;
-            background-image: linear-gradient(45deg, #0b045c 30%, #20011c 60%);
-            background-size: 100%;
-            background-repeat: repeat;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent
-        }
-
-        .features__img {
-            width: 60%;
-            margin: auto;
-        }
-
-        .carousel-image {
-            aspect-ratio: 4/2;
-            z-index: 1;
-            position: relative;
-            filter: opacity(0.5);
-        }
-
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: white;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: rgb(0, 19, 77);
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: rgb(0, 19, 77);
-        }
-
-        .watermark {
-            width: 850px;
-            position: absolute;
-            z-index: 2;
-        }
-
-        @media screen and (max-width: 800px) {
-            .watermark {
-                width: 300px;
-            }
-        }
-    </style>
+    <title>Simple Landing Page</title>
 </head>
 
 <body style="background-image: linear-gradient( 107deg, #0c2481 15%, #570575 100%)" class="font">
@@ -435,54 +352,7 @@
         </div>
     </div>
 
-    <!-- section - footer -->
-    <footer style="background: hsl(0deg 0% 100% / 17%);">
-        <div class="container py-5">
-            <div class="row row-gap-5">
-                <div class="row-12 col-lg-1 justify-content-evenly align-self-sm-center d-flex flex-row flex-lg-column align-items-sm-center"
-                    style=" gap: 35px; font-size: 2em;">
-                    <a class="text-decoration-none" href="https://www.facebook.com">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a class="text-decoration-none" href="https://www.instagram.com">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                    <a class="text-decoration-none" href="https://www.linkedin.com">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                </div>
-
-                <div class="row-12 col-lg-7 align-self-center text-center">
-                    <span>Lorem Ipsum</span>
-                    <hr style="width: 100%; background-color: white; height: 0.1vh; opacity: 1;">
-                    <div class="d-flex" style="text-align: justify;">
-                        Mauris ultrices finibus felis non porttitor. In lacus eros, tincidunt ut justo sit amet,
-                        interdum dapibus dolor. Etiam et euismod metus. Fusce ullamcorper massa nisi, vitae feugiat elit
-                        aliquam ac. Praesent volutpat euismod semper. Quisque eu lobortis magna, nec lacinia massa.
-                        Aliquam at tortor sollicitudin, dictum ante vitae, ultricies massa. Praesent in dictum tortor.
-                    </div>
-                </div>
-
-                <div
-                    class="row-12 col-lg-4 d-flex flex-row flex-lg-column align-self-lg-center justify-content-center align-items-center">
-                    <div class="card"
-                        style="width: 18rem;background: none;border: none;align-items: center;text-align: center;">
-                        <i class="bi bi-person-check-fill" style="font-size: 2em;"></i>
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="card"
-                        style="width: 18rem;background: none;border: none;align-items: center;text-align: center;">
-                        <i class="bi bi-briefcase-fill" style="font-size: 2em;"></i>
-                        <div class="card-body">
-                            <p class="card-text">Ut id maximus mauris, ac molestie tellus</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php'; ?>
 
 </body>
 
