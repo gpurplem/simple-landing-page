@@ -1,3 +1,7 @@
+:root {
+    --font-size: 1.2rem;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -76,8 +80,4 @@ a {
     .watermark {
         width: 300px;
     }
-}
-
-footer {
-    background: hsl(0deg 0% 100% / 17%);
 }
