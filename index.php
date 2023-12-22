@@ -242,47 +242,7 @@
         </div>
     </div>
 
-    <!-- section - testimonials -->
-    <div class="container py-5" style="border-radius: 50px; background: hsl(0deg 0% 100% / 17%); margin-top: 50px;">
-        <div class="col gy-5" style="padding: 20px;">
-            <div class="row">
-                <ul class="px-3 gradient-text-blue-purple">
-                    <li>
-                        <h6>BEM-VINDOS</h6>
-                    </li>
-                </ul>
-                <h2 class="gradient-text-blue-purple">SEJAM BEM-VINDOS AO</h2>
-                <h2 class="gradient-text-blue-purple">INTEGER NON EST MOLLIS</h2>
-            </div>
-            <div class="row px-5" style="margin-top: 30px;">
-                <div class="col-md-3 text-center align-self-center">
-                    <img src="./images/Claudette.jpg" alt="Claudette"
-                        style="border-radius: 50%;width: 150px;height: 150px;">
-                </div>
-
-                <div class="col-md-9">
-                    <div class="row">
-                        <p style="color: #e3e8fb;text-align: justify;">
-                            "Cras et mauris fringilla, auctor nisi nec, consequat nibh. Integer vulputate, augue quis
-                            facilisis tincidunt, nulla ante consectetur ante, in molestie ipsum ligula vitae nulla. In
-                            hac habitasse platea dictumst. Curabitur a tincidunt mauris. Vestibulum gravida tristique
-                            ligula vitae pellentesque. Cras orci dui, suscipit ac lacus ac, malesuada fringilla urna.
-                            Suspendisse lobortis metus nibh, eu rutrum libero ultricies eget. Phasellus ut mauris in
-                            eros pharetra sollicitudin."
-                        </p>
-                        <p style="color: #e3e8fb;" class="text-center">
-                            CLAUDETTE
-                        </p>
-                        <p style="color: #e3e8fb;" class="text-center">
-                            MAURIS ULTRICES FINIBUS
-                            FELIS NON PORTTITOR
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <?php include 'testimonials.php'; ?>
     <?php include 'partners.php'; ?>
     <?php include 'footer.php'; ?>
 
