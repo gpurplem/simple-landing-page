@@ -283,71 +283,7 @@
         </div>
     </div>
 
-    <div style="display: inline-block;height: 20px;">
-    </div>
-
-    <!-- section - partners -->
-    <div class="container py-5">
-        <div class="row gy-5">
-            <div class="row">
-                <ul class="px-3 gradient-text-blue-purple">
-                    <li>
-                        <h6>PARCEIROS</h6>
-                    </li>
-                </ul>
-                <h2 class="gradient-text-blue-purple">QUEM REALIZA O</h2>
-                <h2 class="gradient-text-blue-purple">LOREM IPSUM?</h2>
-            </div>
-
-            <div class="row" style="row-gap: 50px;">
-
-                <div class="col-lg-6 row-12">
-                    <p class="gradient-text-blue-purple">REALIZAÇÃO:</p>
-                    <div class="row align-items-center justify-content-sm-around">
-                        <div class="col-sm-4 col-12" style="text-align: center;">
-                            <img src="./images/partners/logo 1.jpg" class="img-fluid" alt=""
-                                style="width: 158px;height: 45px">
-                        </div>
-                        <div class="col-sm-3 col-12"></div>
-                        <div class="col-sm-3 col-12"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 row-12">
-                    <p class="gradient-text-blue-purple">PARCEIRO:</p>
-                    <div class="row align-items-center justify-content-sm-around">
-                        <div class="col-sm-4 col-12" style="text-align: center;">
-                            <img src="./images/partners/logo 7.jpg" class="img-fluid" alt=""
-                                style="width: 192px;height: 55px;">
-                        </div>
-                        <div class="col-sm-3 col-12"></div>
-                        <div class="col-sm-3 col-12"></div>
-                    </div>
-                </div>
-
-                <div class="row-lg-12">
-                    <p class="gradient-text-blue-purple">EXECUÇÃO TÉCNICA:</p>
-                    <div class="row align-items-center justify-content-sm-around" style="gap:50px">
-                        <div class="col-sm-3 col-12" style="text-align: center;">
-                            <img src="./images/partners/logo 5.jpg" class="img-fluid" alt=""
-                                style="height: 88px;width: 97px;">
-                        </div>
-                        <div class="col-sm-3 col-12" style="text-align: center;">
-                            <img src="./images/partners/logo 2.jpg" class="img-fluid" alt=""
-                                style="width: 120px;height: 80px;">
-                        </div>
-                        <div class="col-sm-3 col-12" style="text-align: center;">
-                            <img src="./images/partners/logo 8.jpg" class="img-fluid" alt=""
-                                style="height: 79px;width: 97px;">
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
+    <?php include 'partners.php'; ?>
     <?php include 'footer.php'; ?>
 
 </body>

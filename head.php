@@ -11,4 +11,5 @@
 <script src="./bootstrap-js/bootstrap.js"></script>
 
 <link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./partners.css">
 <link rel="stylesheet" href="./footer.css">

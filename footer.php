@@ -1,4 +1,4 @@
-<?php include 'head.php'; ?>
+<?php include_once 'head.php'; ?>
 
 <footer>
     <div class="container py-5">
