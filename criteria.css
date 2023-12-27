@@ -1,0 +1,27 @@
+.criteria--card {
+    border-radius: 50px;
+    padding: 2rem 1rem;
+}
+
+.criteria--card h3 {
+    text-align: center;
+}
+
+.criteria-cards--wrapper {
+    color: #c4c4ff;
+    font-size: var(--font-size);
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    place-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 1024px) {
+    .criteria--card {
+        max-width: 42%;
+    }
+}
