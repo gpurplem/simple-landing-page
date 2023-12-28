@@ -29,6 +29,12 @@
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    .testimonials-wrapper > div {
+        padding: 0.5rem;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .testimonials-item--wrapper {
         margin: 2rem 0;

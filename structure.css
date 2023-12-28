@@ -1,7 +1,6 @@
 .structure--wrapper {
     border-radius: 50px;
     background: hsl(0deg 0% 100% / 17%);
-    margin-top: 50px;
     color: #c4c4ff;
     font-size: var(--font-size);
     text-align: justify;
@@ -24,6 +23,12 @@
     object-fit: cover;
     max-height: 20rem;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .structure--wrapper > div {
+        padding: 0.5rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
